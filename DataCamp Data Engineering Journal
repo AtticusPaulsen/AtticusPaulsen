@@ -1,0 +1,15 @@
+Doing Data Engineering is for everyone. Key Takeaways
+
+Data Engineering is the process of collecting data that is easy to utilise to add value to a value chain in a business. This includes many tasks but the big focus is on data pipelines.
+Data Pipelines are a flow of a data into a useable source like a Data Analyst or Data Scientist. Our job is to make it as easy as possible to utilise those resources.
+  A common framework is the Extract Transform Load framework, but it is not the only one.
+  
+SQL was developed by IBM in the 70s for data management. It may or not be the best for managing data, but it is the legacy language that most databases are built on, so maintains viability. It is also close to english.
+
+Datalakes in this courses context store unstructured and structured data, and are used by scientists and engineers. These requires a Data Catalog to prevent our data lake becoming our data swamp.
+
+Data Warehouse in this courses context is for the prepared data for analysts. It would be the equivalent of our datamart.
+
+Database is a general term for where data is kept.
+
+Data Catalog is a record of all the metadata related to our datalake. In our setting we use Axon however it can be provided by other vendors and is a high level concept. This will allow us to understand the context behind our datalake.

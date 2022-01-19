@@ -13,3 +13,13 @@ Data Warehouse in this courses context is for the prepared data for analysts. It
 Database is a general term for where data is kept.
 
 Data Catalog is a record of all the metadata related to our datalake. In our setting we use Axon however it can be provided by other vendors and is a high level concept. This will allow us to understand the context behind our datalake.
+
+Data Processing is generally the process of providing useable data to the business. It includes lots of tasks like:
+  Data Manipulation, Cleaning and Tidying Tasks
+    These can be automated
+    They will always need to be done
+  Store data in a sanely structured database
+  Create Views on top of databases
+  Optimizing the performance of the database
+  
+  

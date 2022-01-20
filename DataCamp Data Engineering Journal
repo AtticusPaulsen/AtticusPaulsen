@@ -1,6 +1,7 @@
-Doing Data Engineering is for everyone. Key Takeaways
+Doing Data Engineering is for everyone.
 
 Data Engineering is the process of collecting data that is easy to utilise to add value to a value chain in a business. This includes many tasks but the big focus is on data pipelines.
+
 Data Pipelines are a flow of a data into a useable source like a Data Analyst or Data Scientist. Our job is to make it as easy as possible to utilise those resources.
   A common framework is the Extract Transform Load framework, but it is not the only one.
   
@@ -15,11 +16,55 @@ Database is a general term for where data is kept.
 Data Catalog is a record of all the metadata related to our datalake. In our setting we use Axon however it can be provided by other vendors and is a high level concept. This will allow us to understand the context behind our datalake.
 
 Data Processing is generally the process of providing useable data to the business. It includes lots of tasks like:
-  Data Manipulation, Cleaning and Tidying Tasks
-    These can be automated
-    They will always need to be done
-  Store data in a sanely structured database
-  Create Views on top of databases
-  Optimizing the performance of the database
+    Data Manipulation, Cleaning and Tidying Tasks
+        These can be automated
+        They will always need to be done
+        Store data in a sanely structured database
+        Create Views on top of databases
+        Optimizing the performance of the database
   
-  
+Scheduling Data is the process of doing something with data 
+     Sensor Scheduling: This can be better understood as trigger scheduling, i.e. when something changes, updated data
+     Time Scheduling: This is a scheduled time
+     Manual: this is manual
+     
+Scheduling Tools: Apache Airflow, Luigi
+ 
+ Data Ingestion Methods:
+      Batches: At a specific time, or specific trigger, collect a bunch of information all at once.
+      Streams: Constantly get new information as it's generated.
+      
+Parallel Computing is the basis of modern data processing tools. It splits up tasks into smaller tasks and distributes them to multiple nodes, it reduces time, memory usage etc.
+
+
+
+Introduction to Data Engineering Course
+
+What is a Data Engineer: An Engineer that develops, constructs, tests and maintains architectures such as databases and large scale processing systems
+
+There are 3 tools that DEs need.
+1. Databases which hold data. Some tools are:
+    MySQL
+    PosteGRESQL
+
+2. Processing which process data. Some tools are:  
+    Apache Spark
+    Hive
+    
+3. Scheduling which schedules data. Some tools are:
+    Apache Airflow
+    Oozie
+    Bashtools
+    
+Parralel Computing Frameworks
+
+Hadoop: is a collection of open source projects that are maintained by Apache. These include HDFS, which is a distributed file system. Map Reduce was the first parallel            computer paradigm. Although these are both legacy systems now really. 
+
+HIVE: is a layer on top of hadoop ecosystem. It makes data queryable using hive sql. Apache maintains this
+
+Apache Spark: distributes data processing tasks between multiple computers. Spark endeavours to keep as much processing as possible in memory. It avoids disk writes. It is from UCLA. Currently Apache maintains this project. It depends on something called Resillient Distributed Datasets (RDD), this is a data structure which maintains data that is distriubted between multiple nodes. RDDs work as a list of tuples conceptually. 
+
+    People typically interact with Spark using PYSPARK, which is the python interface with spark. Look similar to PANDAS
+    
+Here was a lot of applied PySpark stuff, how it works as a dataframe, random functions etc. It was cool
+ 

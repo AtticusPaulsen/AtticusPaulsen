@@ -67,4 +67,16 @@ Apache Spark: distributes data processing tasks between multiple computers. Spar
     People typically interact with Spark using PYSPARK, which is the python interface with spark. Look similar to PANDAS
     
 Here was a lot of applied PySpark stuff, how it works as a dataframe, random functions etc. It was cool
+
+NEXT TRAINING DAY
+
+So Imma be honest, I forgot to write notes in real time, but honeslty it would have been lost on me and the reader. 
+
+So it wrapped up information about parallel computing and why multithreading / multiprocessing is better just based on time and i did some of my own research. Seems simple enough.
+
+Then it went into ETL tools. Using Pyspark and Pandas I worked through the exercises, but often wasn't able to get the answer. I will probably redo this course and maybe beore that
+do a course on pandas and pyspark individally, because it seems integral. It was cool to see the OOB type of thing applied in python, where its defs building on defs into a large operation
+And then looking at the very small etl function that is built on all that.
+
+
  
